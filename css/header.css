@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid #a283cb;
+}
+header a#logo{
+    display: flex;
+    align-items: center;
+}
+header a#logo img{
+    width: 80%;
+    height: 70%;
+}
+header div#pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 1px solid #a283cb;
+    border-radius: 20px;
+}
+header div#pesquisa input{
+    width: 88%;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+header div#pesquisa button{
+    border-radius: 50%;
+}
+header div#pesquisa button:hover{
+    cursor: pointer;
+    background-color: #f35f52;
+    border-radius: 50%;
+}
+header div#pesquisa button:active{
+    background-color: #a283cb;
+}
+header ul#aria-usuario> li > a > span{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #f35f52;
+    padding: 5px;
+}
+header ul#aria-usuario{
+    display: flex;
+}
+header ul#aria-usuario li a img{
+    width: 25px;
+    height: 25px;
+}
+header ul#aria-usuario li details img{
+    width: 25px;
+    height: 25px;
+}
+summary{
+    list-style: none;
+    color: #f35f52;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    cursor: pointer;
+}
+details div#itens-carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 3em;
+    border: 1px solid #f35f52;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.486);
+    margin-left: -10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20em;
+    height: 30em;
+}
+ details div#itens-carrinho  a{
+    display: flex;
+    flex-direction: column;
+}
+details div#itens-carrinho  a span{
+    text-align: center;
+    color: #acacac;
+    font-size: 1.2em;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 7em;
+}
+details div#itens-carrinho  a button{
+    display: flex;
+    border: 2px solid #a283cb;
+    border-radius: 3em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    margin-top: 7em;
+}
