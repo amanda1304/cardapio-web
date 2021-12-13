@@ -4,3 +4,11 @@ footer{
     align-items: center;
     border-top: 1px solid #a283cb;
 }
+footer address{
+    margin: 50px 0;
+    font-family: 'Bebas Neue', cursive;
+}
+footer h5{
+    font-size: 1.3;
+    padding: 20px;
+}
