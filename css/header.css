@@ -76,10 +76,10 @@ details div#itens-carrinho{
     border: 1px solid #f35f52;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.486);
     margin-left: -10%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
-    width: 20em;
-    height: 30em;
+    width: 15em;
+    height: 25em;
 }
  details div#itens-carrinho  a{
     display: flex;
