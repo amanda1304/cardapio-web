@@ -13,96 +13,71 @@
 </head>
 <body>
     <header>
-        <a id="logo" href="/">
+        <a class="logo" href="/">
             <img src="/imagens/logo-.png">
         </a>
-        <div id="pesquisa">
-            <input type="text" name="q" aria-label="pesquise o itém" placeholder="Pesquise o itém">
+        <div class="local-pesquisa">
+            <input id="pesquisa" type="text" placeholder="Pesquise o itém">
             <button>
                 <img src="/imagens/procurar.png">
-            </button>
+            </button> 
         </div>
-        <ul id="aria-usuario">
-            <li>
-                <a href="#usuario">
-                    <img src="/imagens/usuario.png"> 
-                    <span>Minha Conta</span>
-                </a>
-            </li>
-            <li>
-                <details>
-                    <summary>
-                        <img src="/imagens/carrinho.png">
-                        <span>0</span>
-                    </summary>
-                    <div id="itens-carrinho">
-                        <a href="#Adicionar-item">
-                            <span>Carrinho vazio</span>
-                            <button>Adicionar itém</button>
-                        </a> 
-                    </div>
-                </details>
-            </li>
-        </ul>
+            <a href="#usuario">
+                <img src="/imagens/usuario.png"> 
+                <span>Minha Conta</span>
+                <img src="/imagens/carrinho.png">
+                <span>0</span>
+            </a>  
     </header>
     <section>
         <div >
             <a href="">
-                
                 <img src="/imagens/setas-esquerda.png">
             </a>
             <h2>Cardápio</h2>
         </div>    
         <main>
-            <div id="cardapio">
-                <h2>Sobremesa</h2>
-                <ul>
-                    <li data-produto="Bolo de Chocolate">
-                        <div id="prato">
-                            
-                            <p data-price="R$15,00">
-                                Bolo de chocolate tradicional, recheio
-                                creme de manteiga de chocolate 70% cacau e
-                                cobertura de chocolate amargo.
-                            </p>
-                            <img src="/imagens/bolo-de-chocolate.jpg">
-                        </div>
-                    </li>
-                    <li data-produto="Petit gateau">
-                        <div id="prato">
-                            <p data-price="R$30,00">
-                                Petit Gateau de chocolate com sorvete de baunilha calda de caramelo.
-                            </p>
-                            <img src="/imagens/Petit Gateau.jpg">
-                        </div>
-                    </li>
-                    <li data-produto="Bolo de Chocolate">
-                        <div id="prato">
-                            <p data-price="R$15,00"> 
-                                Bolo de chocolate tradicional, recheio
-                                creme de manteiga de chocolate 70% cacau e
-                                cobertura de chocolate amargo.
-                            </p>
-                            <img src="/imagens/bolo-de-chocolate.jpg">
-                        </div>
-                    </li>
-                    <li data-produto="Petit gateau">
-                        <div id="prato">
-                            <p data-price="R$30,00">
-                                Petit Gateau de chocolate com sorvete de bauniha com calda de caramelo.
-                            </p>
-                            <img src="/imagens/Petit Gateau.jpg">
-                        </div>
-                    </li>
-                </ul>
+            <h2>Sobremesa</h2> 
+            <div class="prato">
+                <h2>Bolo de Chocolate</h2>
+                <p data-price="R$15,00">
+                    <span>
+                    Bolo de chocolate tradicional, recheio
+                    creme de manteiga de chocolate 70% cacau e
+                    cobertura de chocolate amargo.
+                    </span>        
+                    <span><img src="/imagens/bolo-de-chocolate.jpg"></span>
+                </p>
+            </div>
+            <div class="prato">
+                <h2>Petit Gateau</h2>
+                <p data-price="R$30,00">
+                    <span>
+                    Petit Gateau de chocolate com sorvete de baunilha calda de caramelo.
+                    </span>
+                    <span><img src="/imagens/Petit Gateau.jpg"></span>
+                </p>
+            </div>
+            <div class="prato">
+                <h2>Bolo de Chocolate</h2>
+                <p data-price="R$15,00"> 
+                    Bolo de chocolate tradicional, recheio
+                    creme de manteiga de chocolate 70% cacau e
+                    cobertura de chocolate amargo.
+                    <span><img src="/imagens/bolo-de-chocolate.jpg"></span> 
+                </p>
+            </div>
+            <div class="prato">
+                <p data-price="R$30,00">
+                    Petit Gateau de chocolate com sorvete de bauniha com calda de caramelo.
+                    <span><img src="/imagens/Petit Gateau.jpg"></span>
+                </p>
             </div>
         </main>
-    
     </section>
     <footer>
         <address>
             <h5>Contate-nos:</h5>
-      
             <p>
               <abbr title="Phone">Tel:</abbr> 
               (xx) xxxx-xxxx

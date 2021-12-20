@@ -1,24 +1,27 @@
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     background-color: #f7f7f7;
+    padding: 30px 60px;
 }
-section > div{
+
+section > div {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 15px ;
+  
 }
-section > div > h2{
+
+section > div > h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
     color: #acacac;
     padding-right: 30%;
 }
-section > div > a > img{
+
+section > div > a > img {
     width: 30px;
     height: 30px;
-   
 }
