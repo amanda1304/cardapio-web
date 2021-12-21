@@ -21,7 +21,7 @@ header a.logo img {
 header > .local-pesquisa {
     display: flex;
     justify-content: space-between;
-    width: 350px;
+    width: 300px;
     border: 1px solid var(--cor-principal--);
     border-radius: 30px;
 }
@@ -45,7 +45,6 @@ header button:active {
 header > a > span {
     font-weight: 700;
     color: var(--cor-secundaria--);
-    padding: 5px;
 }
 
 header > a > img {
