@@ -2,7 +2,6 @@
     header {
         justify-content: center;
         flex-direction: column;
-        width: 100%;
     }
     
     header a.logo {
@@ -25,20 +24,68 @@
     padding-right: 30px;
     }
 
-   
+    
 }
-@media only screen and (max-width: 497px){
+
+@media  screen and (max-width: 565px) {
+    main div.prato button {
+        margin-left: 85px;
+
+    }
+}
+
+@media only screen and (max-width: 497px) {
     section{
         padding: 0;
         width: 100%;
     }
+
     main{
         display: flex;
         
     }
+
+    section {
+        padding-bottom: 10px;
+    }
 }
-@media only screen and (max-width: 407px){
+
+@media only screen and (max-width: 407px) {
     header > .local-pesquisa {
-        width: 320px;
+        width: 300px;
+    }
+    
+    main {
+        padding: 10px;
+    }
+
+    main > div.prato {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 292px) {
+    header > .local-pesquisa {
+        width: 200px;
+        align-items: center;
+        justify-content: center;
     } 
+    .local-pesquisa input {
+        width: 150px;
+        font-size: 0.8em;
+    }
+
+    section > div > h2 {
+        font-size: 1.8em;
+        padding-left: 20px;
+    }
+
+    main {
+        padding: 0 5px;
+    }
+    div.prato p span {
+        font-size: 0.8em;
+        font-weight: 800;
+    }
 }
